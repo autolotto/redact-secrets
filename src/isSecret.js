@@ -6,6 +6,8 @@ var KEYS = [
   /^pw$/,
   /secret/i,
   /token/i,
+  /ssn/i,
+  /cvv/i,
   /api[-._]?key/i,
   /session[-._]?id/i,
 
