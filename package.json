@@ -4,7 +4,6 @@
   "description": "Deeply iterate over an object and redact secret values by replacing them with a predefined string",
   "main": "./src/index.js",
   "dependencies": {
-    "is-secret": "^1.0.0",
     "traverse": "^0.6.6"
   },
   "devDependencies": {

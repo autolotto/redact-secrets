@@ -1,7 +1,7 @@
 'use strict'
 
 var traverse = require('traverse')
-var isSecret = require('is-secret')
+var isSecret = require('./isSecret')
 
 module.exports = function (redacted) {
   return {
