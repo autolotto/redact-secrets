@@ -2,7 +2,7 @@
 
 var test = require('tape')
 var clone = require('clone')
-var redact = require('./')
+var redact = require('./src/index')
 
 test('redact.map', function (t) {
   var input = {
