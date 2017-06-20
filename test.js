@@ -10,7 +10,9 @@ test('redact.map', function (t) {
     secret: 'secret',
     sub1: {
       foo: 'non-secret',
-      password: 'secret'
+      password: 'secret',
+      ssn: 'secret',
+      cvv: 'secret'
     },
     sub2: [{
       foo: 'non-secret',
@@ -23,7 +25,9 @@ test('redact.map', function (t) {
     secret: 'redacted',
     sub1: {
       foo: 'non-secret',
-      password: 'redacted'
+      password: 'redacted',
+      ssn: 'redacted',
+      cvv: 'redacted'
     },
     sub2: [{
       foo: 'non-secret',
@@ -45,7 +49,9 @@ test('redact.forEach', function (t) {
     secret: 'secret',
     sub1: {
       foo: 'non-secret',
-      password: 'secret'
+      password: 'secret',
+      ssn: 'secret',
+      cvv: 'secret'
     },
     sub2: [{
       foo: 'non-secret',
@@ -58,7 +64,9 @@ test('redact.forEach', function (t) {
     secret: 'redacted',
     sub1: {
       foo: 'non-secret',
-      password: 'redacted'
+      password: 'redacted',
+      ssn: 'redacted',
+      cvv: 'redacted'
     },
     sub2: [{
       foo: 'non-secret',
