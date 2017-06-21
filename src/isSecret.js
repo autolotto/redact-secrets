@@ -8,6 +8,8 @@ var KEYS = [
   /token/i,
   /ssn/i,
   /cvv/i,
+  /accountNumber/i,
+  /routingNumber/i,
   /api[-._]?key/i,
   /session[-._]?id/i,
 
